@@ -30,12 +30,6 @@ You can test this MCP using the MCP Inspector:
 npx @modelcontextprotocol/inspector node index.js
 ```
 
-If port 6277 is already in use, you can specify different ports:
-
-```bash
-CLIENT_PORT=6275 SERVER_PORT=6278 npx @modelcontextprotocol/inspector node index.js
-```
-
 This will start the MCP Inspector UI at the specified client port (default: 6274) and the proxy server at the server port (default: 6277).
 
 ## Using the MCP Inspector
